@@ -14,7 +14,7 @@ let images = [
     <div class="section-container">
       <div class="flex flex-col md:flex-row gap-[30px]">
         <div class="grid grid-cols-2 gap-2.5">
-          <figure :class="item.class" v-for="item in images" :key="item">
+          <figure :class="item.class" v-for="(item, index) in images" :key="index">
             <img :src="item.image" alt="" class="w-full" />
           </figure>
         </div>
