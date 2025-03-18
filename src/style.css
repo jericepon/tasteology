@@ -4,7 +4,9 @@
 
 @theme {
   --font-open-sans: "Open Sans", sans-serif;
-  --container-8xl: 71.625rem;
+  --breakpoint-sm: 64rem;
+  --breakpoint-md: 80rem;
+  --breakpoint-lg: 90rem;
 }
 
 body {
@@ -22,4 +24,8 @@ body {
 
 section {
   @apply px-4;
+}
+
+.section-container {
+  @apply container md:max-w-[1146px] mx-auto py-12 md:py-[120px];
 }

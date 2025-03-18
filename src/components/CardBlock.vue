@@ -25,12 +25,14 @@ const cards = [
 ];
 </script>
 <template>
-  <div class="container md:max-w-[1146px] mx-auto py-20 text-center space-y-[30px]">
-    <h3 class="section-title w-auto mx-auto inline-block">Taste the Colours</h3>
-    <div class="flex gap-2.5">
-      <card v-for="(card, index) in cards" v-bind="card" :key="index" class="flex-1" />
+  <section>
+    <div class="section-container text-center space-y-[30px]">
+      <h3 class="section-title w-auto mx-auto inline-block">Taste the Colours</h3>
+      <div class="flex flex-col md:flex-row gap-7.5 md:gap-2.5">
+        <card v-for="(card, index) in cards" v-bind="card" :key="index" class="flex-1" />
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style></style>
