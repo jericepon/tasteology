@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const props = defineProps({
+ defineProps({
   image: {
     type: String,
     required: true,
