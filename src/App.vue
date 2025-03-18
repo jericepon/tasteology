@@ -1,12 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ImageTextBlock from "./components/ImageTextBlock.vue";
+</script>
 
 <template>
-  <div class="grid grid-cols-3 gap-4">
-    <div class="bg-gray-400 w-full h-28"></div>
-    <div class="bg-gray-400 w-full h-28"></div>
-    <div class="bg-gray-400 w-full h-28"></div>
-    <div class="bg-gray-400 w-full h-28"></div>
-  </div>
+  <main>
+    <image-text-block />
+  </main>
 </template>
 
 <style scoped></style>

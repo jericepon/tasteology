@@ -1,7 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-roboto: "Roboto", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
+  --container-8xl: 71.625rem;
+}
+
+body {
+  font-family: var(--font-open-sans);
+  @apply bg-[#0e1414] text-white;
+}
+
+.card-title {
+  @apply text-3xl font-light pb-[30px] border-b border-white tracking-wider;
+}
+
+.card-description {
+  @apply text-[21px] font-light leading-7.5;
 }
