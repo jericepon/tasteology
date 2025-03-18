@@ -12,10 +12,14 @@ body {
   @apply bg-[#0e1414] text-white;
 }
 
-.card-title {
-  @apply text-3xl font-light pb-[30px] border-b border-white tracking-wider;
+.section-title {
+  @apply text-3xl font-light pb-[30px] border-b border-white tracking-wider uppercase;
 }
 
 .card-description {
   @apply text-[21px] font-light leading-7.5;
+}
+
+section {
+  @apply px-4;
 }

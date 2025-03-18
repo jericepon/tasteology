@@ -19,7 +19,7 @@ let images = [
           </figure>
         </div>
         <article class="md:max-w-[362px] space-y-[30px]">
-          <h3 class="card-title">WHAT DOES COOKING MEAN?</h3>
+          <h3 class="section-title">WHAT DOES COOKING MEAN?</h3>
           <p class="card-description text-ellipsis line-clamp-11">
             Is it simply applying heat to a food product? A way of making certain food safe to eat?
             Or a way to create flavour and make food more appealing? This is just part of what Hervé
