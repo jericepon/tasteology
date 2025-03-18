@@ -1,4 +1,4 @@
-# Tasteology
+# Tasteology https://tasteology-app.netlify.app/
 
 Tasteology is a Vue 3 + TypeScript + Vite project designed to showcase visually appealing components and layouts using Tailwind CSS. The project includes reusable Vue components and assets to create a modern, responsive web application.
 
